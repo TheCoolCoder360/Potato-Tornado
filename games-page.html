@@ -35,9 +35,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Another Page</title>
+    <style>
+        .top-button {
+            position: absolute;
+            top: 10px; /* Adjust the top value as needed */
+            left: 10px; /* Adjust the left value as needed */
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
+    <button class="top-button" onclick="navigateToHomePage()">Back to Home Page</button>
     <h1>Welcome to Another Page</h1>
-    <p><a href="index.html">Back to Home Page</a></p>
+
+    <script>
+        function navigateToHomePage() {
+            window.location.href = "index.html";
+        }
+    </script>
 </body>
 </html>
