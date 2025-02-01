@@ -1,0 +1,7 @@
+/* CSS for custom cursor */
+.custom-cursor {
+    cursor: url('https://media1.tenor.com/m/AQMVwynlZdYAAAAC/masculine-sigma.gif'), auto; /* Replace 'cursor.png' with the path to your cursor image */
+    padding: 20px;
+    border: 2px solid black;
+    display: inline-block;
+}
