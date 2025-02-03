@@ -78,15 +78,21 @@
     <style>
         body {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            justify-content: space-between;
             align-items: center;
             height: 100vh;
+            margin: 0;
             background-color: #f0f0f0;
             font-family: Arial, sans-serif;
         }
+        .message {
+            text-align: center;
+            margin-top: 20px;
+        }
         .image-container {
-            text-align: bottom;
-             margin-bottom: 20px;
+            text-align: center;
+            margin-bottom: 20px;
         }
         .image-container img {
             max-width: 100%;
@@ -95,11 +101,12 @@
     </style>
 </head>
 <body>
+    <div class="message">
+        <h1>Sorry!</h1>
+        <p>No games coming soon.</p>
+    </div>
     <div class="image-container">
         <img src="https://www.icegif.com/wp-content/uploads/icegif-3639.gif" alt="Description of the image">
     </div>
 </body>
 </html>
-
-
-
